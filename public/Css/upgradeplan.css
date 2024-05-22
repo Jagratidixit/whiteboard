@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .plans {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .review {
+    flex: 1;
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .review img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Adjust the size of the form elements as needed */
+  .form-container form input[type="radio"],
+  .form-container form button {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the review image container */
+  .review-container {
+    text-align: center;
+  }
+  .bt {
+	display: block;
+	margin: 20px auto; /*margin*/
+  }
+  .bt{
+	display: inline-block;
+  padding: 10px 12px;
+  font-size: 16px;
+  width: 50%;
+  margin-top: 30px ;
+  margin-left: 130px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+  }
+
+  

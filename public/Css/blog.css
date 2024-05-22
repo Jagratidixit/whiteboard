@@ -1,0 +1,88 @@
+.sec1 ul li{
+    color:purple;
+    width: 80%;
+    margin:40px 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Padding */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Border radius */
+  }
+  
+  /* Text styling */
+  .card p {
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Margin top */
+  }
+/* blog.css */
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px; /* Fixed height for the card */
+    overflow: hidden; 
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  /* blog.css */
+
+.add-blog-button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-blog-button:hover {
+  background-color: darkpurple;
+}
+
+  
+  

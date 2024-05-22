@@ -1,0 +1,37 @@
+.add-blog-form {
+    width: 60%; /* Adjust the width as needed */
+    margin: 25px auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  }
+  
+  .add-blog-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-blog-form input[type="text"],
+  .add-blog-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  .add-blog-form button {
+    background-color: purple; /* Purple background color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-blog-form button:hover {
+    background-color: #6a0dad; /* Darker shade of purple on hover */
+  }
+  

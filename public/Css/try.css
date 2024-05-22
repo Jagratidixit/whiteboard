@@ -1,0 +1,123 @@
+.canvas-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.canvas-container h1 {
+  color: #333;
+}
+
+.canvas-container button {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.canvas-container button:hover {
+  background-color: #4c0788;
+}
+
+.canvas-container input[type="color"] {
+  margin-bottom: 10px;
+}
+
+.pro-upgrade {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pro-upgrade button {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pro-upgrade button:hover {
+  background-color: #4c0788;
+}
+
+.pro-upgrade p {
+  color: #555;
+}
+
+#drawing-mode,
+#clear-canvas {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#drawing-mode:hover,
+#clear-canvas:hover {
+  background-color: #4c0788;
+}
+
+.hidden {
+  display: none;
+}
+/* Adjustments for laptop screens */
+
+/* Increase the maximum width of the container */
+.canvas-container {
+  max-width: 1000px;
+}
+
+/* Ensure the canvas remains visible within the container */
+#canvas-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Adjust button spacing and alignment */
+.canvas-container button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/* Adjust font sizes and spacing for better readability */
+.canvas-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pro-upgrade {
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.pro-upgrade button {
+  margin-top: 20px;
+}
+
+/* Adjust button sizes for better clickability */
+#drawing-mode,
+#clear-canvas {
+  padding: 15px 30px;
+  margin-top: 30px;
+}
+
+/* Ensure the file input remains visible */
+#imageLoader {
+  margin-top: 20px;
+}

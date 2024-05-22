@@ -1,0 +1,48 @@
+.signin-container {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 450px;
+    text-align: center;
+
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: purple;
+  }
+  
+  .options a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  .signin-button{
+    height:45px;
+    width:400px;
+    color:white;
+    background-color: purple;
+  }
+  
